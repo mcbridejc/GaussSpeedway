@@ -1,0 +1,47 @@
+(module linear_touch_36.0mm (layer F.Cu) (tedit 635EBDC0)
+  (descr "An interlaced touch sensitive linear slider")
+  (pad 1 smd custom (at 0 0) (size 0.1 0.1) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.5) (xy 9.95 -7.5) (xy 9.95 -7.35) (xy 1.8 -5.4)
+         (xy 1.8 -4.6) (xy 9.95 -2.65) (xy 9.95 -2.35) (xy 1.8 -0.4)
+         (xy 1.8 0.4) (xy 9.95 2.35) (xy 9.95 2.65) (xy 1.8 4.6)
+         (xy 1.8 5.4) (xy 9.95 7.35) (xy 9.95 7.5) (xy 0 7.5)) (width 0.0001))
+    ))
+  (pad 2 smd custom (at 12 0) (size 0.1 0.1) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.5) (xy 9.95 -7.5) (xy 9.95 -7.35) (xy 1.8 -5.4)
+         (xy 1.8 -4.6) (xy 9.95 -2.65) (xy 9.95 -2.35) (xy 1.8 -0.4)
+         (xy 1.8 0.4) (xy 9.95 2.35) (xy 9.95 2.65) (xy 1.8 4.6)
+         (xy 1.8 5.4) (xy 9.95 7.35) (xy 9.95 7.5) (xy 0 7.5)
+         (xy -1.8 7.5) (xy -1.8 7.1) (xy -9.95 5.15) (xy -9.95 4.85)
+         (xy -1.8 2.9) (xy -1.8 2.1) (xy -9.95 0.15) (xy -9.95 -0.15)
+         (xy -1.8 -2.1) (xy -1.8 -2.9) (xy -9.95 -4.85) (xy -9.95 -5.15)
+         (xy -1.8 -7.1) (xy -1.8 -7.5)) (width 0.0001))
+    ))
+  (pad 3 smd custom (at 24 0) (size 0.1 0.1) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.5) (xy 9.95 -7.5) (xy 9.95 -7.35) (xy 1.8 -5.4)
+         (xy 1.8 -4.6) (xy 9.95 -2.65) (xy 9.95 -2.35) (xy 1.8 -0.4)
+         (xy 1.8 0.4) (xy 9.95 2.35) (xy 9.95 2.65) (xy 1.8 4.6)
+         (xy 1.8 5.4) (xy 9.95 7.35) (xy 9.95 7.5) (xy 0 7.5)
+         (xy -1.8 7.5) (xy -1.8 7.1) (xy -9.95 5.15) (xy -9.95 4.85)
+         (xy -1.8 2.9) (xy -1.8 2.1) (xy -9.95 0.15) (xy -9.95 -0.15)
+         (xy -1.8 -2.1) (xy -1.8 -2.9) (xy -9.95 -4.85) (xy -9.95 -5.15)
+         (xy -1.8 -7.1) (xy -1.8 -7.5)) (width 0.0001))
+    ))
+  (pad 4 smd custom (at 36 0) (size 0.1 0.1) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 7.5) (xy -1.8 7.5) (xy -1.8 7.1) (xy -9.95 5.15)
+         (xy -9.95 4.85) (xy -1.8 2.9) (xy -1.8 2.1) (xy -9.95 0.15)
+         (xy -9.95 -0.15) (xy -1.8 -2.1) (xy -1.8 -2.9) (xy -9.95 -4.85)
+         (xy -9.95 -5.15) (xy -1.8 -7.1) (xy -1.8 -7.5) (xy 0 -7.5)) (width 0.0001))
+    ))
+)

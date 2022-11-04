@@ -1,0 +1,47 @@
+(module linear_touch_40.0mm (layer F.Cu) (tedit 635EBF09)
+  (descr "An interlaced touch sensitive linear slider")
+  (pad 1 smd custom (at 0 0) (size 0.1 0.1) (layers F.Cu)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.2) (xy 11.483333 -7.2) (xy 11.483333 -7.05) (xy 1.6 -5.2)
+         (xy 1.6 -4.4) (xy 11.483333 -2.55) (xy 11.483333 -2.25) (xy 1.6 -0.4)
+         (xy 1.6 0.4) (xy 11.483333 2.25) (xy 11.483333 2.55) (xy 1.6 4.4)
+         (xy 1.6 5.2) (xy 11.483333 7.05) (xy 11.483333 7.2) (xy 0 7.2)) (width 0.0001))
+    ))
+  (pad 2 smd custom (at 13.333333 0) (size 0.1 0.1) (layers F.Cu)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.2) (xy 11.483333 -7.2) (xy 11.483333 -7.05) (xy 1.6 -5.2)
+         (xy 1.6 -4.4) (xy 11.483333 -2.55) (xy 11.483333 -2.25) (xy 1.6 -0.4)
+         (xy 1.6 0.4) (xy 11.483333 2.25) (xy 11.483333 2.55) (xy 1.6 4.4)
+         (xy 1.6 5.2) (xy 11.483333 7.05) (xy 11.483333 7.2) (xy 0 7.2)
+         (xy -1.6 7.2) (xy -1.6 6.8) (xy -11.483333 4.95) (xy -11.483333 4.65)
+         (xy -1.6 2.8) (xy -1.6 2) (xy -11.483333 0.15) (xy -11.483333 -0.15)
+         (xy -1.6 -2) (xy -1.6 -2.8) (xy -11.483333 -4.65) (xy -11.483333 -4.95)
+         (xy -1.6 -6.8) (xy -1.6 -7.2)) (width 0.0001))
+    ))
+  (pad 3 smd custom (at 26.666667 0) (size 0.1 0.1) (layers F.Cu)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -7.2) (xy 11.483333 -7.2) (xy 11.483333 -7.05) (xy 1.6 -5.2)
+         (xy 1.6 -4.4) (xy 11.483333 -2.55) (xy 11.483333 -2.25) (xy 1.6 -0.4)
+         (xy 1.6 0.4) (xy 11.483333 2.25) (xy 11.483333 2.55) (xy 1.6 4.4)
+         (xy 1.6 5.2) (xy 11.483333 7.05) (xy 11.483333 7.2) (xy 0 7.2)
+         (xy -1.6 7.2) (xy -1.6 6.8) (xy -11.483333 4.95) (xy -11.483333 4.65)
+         (xy -1.6 2.8) (xy -1.6 2) (xy -11.483333 0.15) (xy -11.483333 -0.15)
+         (xy -1.6 -2) (xy -1.6 -2.8) (xy -11.483333 -4.65) (xy -11.483333 -4.95)
+         (xy -1.6 -6.8) (xy -1.6 -7.2)) (width 0.0001))
+    ))
+  (pad 4 smd custom (at 40 0) (size 0.1 0.1) (layers F.Cu)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 7.2) (xy -1.6 7.2) (xy -1.6 6.8) (xy -11.483333 4.95)
+         (xy -11.483333 4.65) (xy -1.6 2.8) (xy -1.6 2) (xy -11.483333 0.15)
+         (xy -11.483333 -0.15) (xy -1.6 -2) (xy -1.6 -2.8) (xy -11.483333 -4.65)
+         (xy -11.483333 -4.95) (xy -1.6 -6.8) (xy -1.6 -7.2) (xy 0 -7.2)) (width 0.0001))
+    ))
+)
