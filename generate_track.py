@@ -38,8 +38,8 @@ segment = [
     #cc.ParallelLine(0.25, 0.75, 0.0, LANE_SEPARATOR_WIDTH, pcbnew.F_SilkS),
 
     # Guard rails
-    cc.ParallelLine(0.0, 1.0, -GUIDE_RAIL_SPACE / 2, GUIDE_RAIL_WIDTH, pcbnew.In1_Cu),
-    cc.ParallelLine(0.0, 1.0, GUIDE_RAIL_SPACE / 2, GUIDE_RAIL_WIDTH, pcbnew.In1_Cu),
+    cc.ParallelLine(0.0, 1.0, -GUIDE_RAIL_SPACE / 2, GUIDE_RAIL_WIDTH, pcbnew.F_Cu),
+    cc.ParallelLine(0.0, 1.0, GUIDE_RAIL_SPACE / 2, GUIDE_RAIL_WIDTH, pcbnew.F_Cu),
     
     # Track 1 Phase A
     cc.TransverseLine(
@@ -47,21 +47,21 @@ segment = [
         end=-(TRACK_CENTER + TRACK_MAJOR),
         offset=0,
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.ParallelLine(
         start=0,
         end=0.5,
         offset=-(TRACK_CENTER + TRACK_MAJOR),
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.TransverseLine(
         start=-(TRACK_CENTER + TRACK_MAJOR),
         end=-(TRACK_CENTER - TRACK_MINOR),
         offset=0.5,
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.Via(0.5, -(TRACK_CENTER - TRACK_MINOR)),
     cc.ParallelLine(
@@ -69,7 +69,7 @@ segment = [
         end=1.0,
         offset=-(TRACK_CENTER - TRACK_MINOR),
         width=LINE_WIDTH,
-        layer=pcbnew.In1_Cu,
+        layer=pcbnew.In2_Cu,
     ),
     cc.Via(1.0, -(TRACK_CENTER - TRACK_MINOR)),
     
@@ -79,14 +79,14 @@ segment = [
         end=0.25,
         offset=-(TRACK_CENTER - TRACK_MAJOR),
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.TransverseLine(
         start=-(TRACK_CENTER - TRACK_MAJOR),
         end=-(TRACK_CENTER + TRACK_MINOR),
         offset=0.25,
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.Via(0.25, -(TRACK_CENTER + TRACK_MINOR)),
     cc.ParallelLine(
@@ -94,7 +94,7 @@ segment = [
         end=0.75,
         offset=-(TRACK_CENTER + TRACK_MINOR),
         width=LINE_WIDTH,
-        layer=pcbnew.In1_Cu,
+        layer=pcbnew.In2_Cu,
     ),
     cc.Via(0.75, -(TRACK_CENTER + TRACK_MINOR)),
     cc.TransverseLine(
@@ -102,14 +102,14 @@ segment = [
         end=-(TRACK_CENTER - TRACK_MAJOR),
         offset=0.75,
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
     cc.ParallelLine(
         start=0.75, 
         end=1.00,
         offset=-(TRACK_CENTER - TRACK_MAJOR),
         width=LINE_WIDTH,
-        layer=pcbnew.F_Cu,
+        layer=pcbnew.In1_Cu,
     ),
 ]
 

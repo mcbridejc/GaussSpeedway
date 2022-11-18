@@ -57,6 +57,10 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|193850000|158350000|d81f8a9a-6b13-4b92-a3cb-feceaa20e481|c5e4eb6d-f369-49db-bd8c-456c85204054",
+        "clearance|193850000|158350000|e9e805b7-3eb7-4ad5-b109-b59242db3900|c5e4eb6d-f369-49db-bd8c-456c85204054",
+        "clearance|193850000|163450000|03d5f962-c599-488f-bcc2-c51f78281ed2|c5e4eb6d-f369-49db-bd8c-456c85204054",
+        "clearance|194100000|163700000|8847e55b-747a-4248-b850-2f2a94772226|c5e4eb6d-f369-49db-bd8c-456c85204054",
         "clearance|198566666|111800000|8847e55b-747a-4248-b850-2f2a94772226|c5e4eb6d-f369-49db-bd8c-456c85204054",
         "clearance|198650000|117150000|d81f8a9a-6b13-4b92-a3cb-feceaa20e481|c5e4eb6d-f369-49db-bd8c-456c85204054"
       ],
@@ -99,7 +103,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -118,10 +122,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.12,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -414,8 +418,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
@@ -430,8 +434,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "slot_track.step",
+      "vrml": "slot_track.wrl"
     },
     "page_layout_descr_file": ""
   },
