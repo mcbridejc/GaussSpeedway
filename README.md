@@ -7,4 +7,6 @@ PCB design for the [Gauss Speedway](https://jeffmcbride.net/gauss-speedway/). De
 
 Demo video: [https://vimeo.com/771275219](https://vimeo.com/771275219)
 
+
 Fair warning: The image and video show Rev 1, which has several mistakes. The latest in the repo is Rev 2, which should fix those but as of this writing it's in transit and so not yet tested. It will be soon.
+Update: Rev 2 is in, and it has a couple issues. There will be a rev 3.
