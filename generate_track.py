@@ -8,9 +8,9 @@ import os
 WIDTH=10.0
 PITCH=4.0
 WIDTH_MARGIN = 1.2
-LINE_WIDTH = 0.3
-VIA_DRILL = 0.3
-VIA_PAD = 0.6
+LINE_WIDTH = 0.45
+VIA_DRILL = 0.2
+VIA_PAD = 0.45
 GUIDE_RAIL_WIDTH = 1.25
 GUIDE_RAIL_SPACE = 6 + GUIDE_RAIL_WIDTH
 CU_CLEARANCE = 0.2
@@ -63,7 +63,7 @@ segment = [
         width=LINE_WIDTH,
         layer=pcbnew.In1_Cu,
     ),
-    cc.Via(0.5, -(TRACK_CENTER - TRACK_MINOR)),
+    cc.Via(0.5, -(TRACK_CENTER - TRACK_MINOR), drill=VIA_DRILL, pad=VIA_PAD),
     cc.ParallelLine(
         start=0.5, 
         end=1.0,
@@ -71,7 +71,7 @@ segment = [
         width=LINE_WIDTH,
         layer=pcbnew.In2_Cu,
     ),
-    cc.Via(1.0, -(TRACK_CENTER - TRACK_MINOR)),
+    cc.Via(1.0, -(TRACK_CENTER - TRACK_MINOR), drill=VIA_DRILL, pad=VIA_PAD),
     
     # Track 1 Phase B
     cc.ParallelLine(
@@ -88,7 +88,7 @@ segment = [
         width=LINE_WIDTH,
         layer=pcbnew.In1_Cu,
     ),
-    cc.Via(0.25, -(TRACK_CENTER + TRACK_MINOR)),
+    cc.Via(0.25, -(TRACK_CENTER + TRACK_MINOR), drill=VIA_DRILL, pad=VIA_PAD),
     cc.ParallelLine(
         start=0.25,
         end=0.75,
@@ -96,7 +96,7 @@ segment = [
         width=LINE_WIDTH,
         layer=pcbnew.In2_Cu,
     ),
-    cc.Via(0.75, -(TRACK_CENTER + TRACK_MINOR)),
+    cc.Via(0.75, -(TRACK_CENTER + TRACK_MINOR), drill=VIA_DRILL, pad=VIA_PAD),
     cc.TransverseLine(
         start=-(TRACK_CENTER + TRACK_MINOR),
         end=-(TRACK_CENTER - TRACK_MAJOR),
@@ -115,9 +115,9 @@ segment = [
 
 class TrackLayout(pcbnew.ActionPlugin):
     def defaults(self):
-        self.name = "Layout two-lane race track"
+        self.name = "Insert Gauss Speedway race track"
         self.category = "Modify PCB"
-        self.description = "Layout two-lane race track"
+        self.description = "Insert Gauss Speedway race track"
         self.show_toolbar_button = True
 
     def Run(self):
