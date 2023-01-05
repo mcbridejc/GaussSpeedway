@@ -9,6 +9,11 @@ Demo video: [https://vimeo.com/771275219](https://vimeo.com/771275219)
 
 Firmware: [https://github.com/mcbridejc/speedway-controller](https://github.com/mcbridejc/speedway-controller)
 
+
+# PCB
+
+The board is a 4-layer board. I typically order it in black soldermask, although this is of course not necessary. I also typically do 1oz inner copper (thinner copper is typically the default) in order to get the trace resistance down. 
+
 # Assembly
 
 The holes in the corners are designed to accomodate M3 screws for mounting. The PCB mounts into a [3D printable frame](./doc/GaussSpeedway_Frame.stl), which has holes to accomodate M3 threaded heat inserts. You can also get by just putting four stand-offs on the corners.
